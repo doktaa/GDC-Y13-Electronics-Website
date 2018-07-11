@@ -1,0 +1,355 @@
+body {
+	background-image: url(pagebackground.png);
+	max-width: 100%;
+	min-width: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: Century Gothic;
+	font-size: 16px;
+}
+	
+#container {
+	position: relative;
+	min-width: 100%;
+	max-width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#homecontainer {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	background-color: #22292F;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+#homecontent {
+	margin: 0;
+	padding: 3%;
+}
+
+#homeimage {
+	margin: 0 0 3% 3%;
+	float: right;
+	width: 30%;
+	border: 2px solid black;
+}
+
+#heading1 {
+	font-size: 50px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.heading2 {
+	font-size: 35px;
+	font-weight: normal;
+	margin: 0 0 3% 0;
+}
+
+.heading3 {
+	font-size: 25px;
+	font-weight: normal;
+}
+
+.homeintro {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: justify;
+}
+
+#coursecontainer {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	padding: 0;
+	background-color: #22292F;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+#coursenav {
+	width: 250px;
+	color: white;
+	margin: 0;
+	margin-right: 3%;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+
+#coursenav li {
+	background-image: url(coursebutton.png);
+	height: 50px;
+	text-align: center;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+}
+
+#coursenav li a {
+	display: block;
+	text-decoration: none;
+	line-height: 50px;
+}
+
+#coursenav li a:link {
+	color: #DADADA;
+	text-decoration: none;
+}
+
+#coursenav li a:visited {
+	color: #DADADA;
+	text-decoration: none;
+}
+
+#coursenav li a:hover {
+	background-image: url(coursebuttonhover.png);
+	color: black !important;
+}
+
+#courseinfocontent {
+	float: right;
+	padding: 3%;
+	margin: 0;
+	padding: 0;
+}
+
+.courseheadings {
+	padding: 3% 0 0 0;
+	margin: 0 0 25px 0;
+}
+
+#coursecontenttable {
+	margin: 0 3% 0 0;
+	padding: 0;
+}
+
+.coursetable {
+	border-collapse: collapse;
+}
+
+.coursetable tr td {
+	border: 2px solid black;
+	padding: 4px;
+}
+
+.coursetable2 {
+	border-collapse: collapse;
+}
+
+.coursetable2 tr td {
+	border: 2px solid black;
+	padding: 4px;
+	text-align: center;
+}
+
+.tddark {
+	background-color: #666666;
+	color: white;
+	font-size: 20px;
+}
+
+.tddark2 {
+	text-align: left !important;
+	background-color: #666666;
+	color: white;
+	font-size: 20px;
+}
+
+.tdlight {
+	background-color: #CCCCCC;
+	color: black;
+}
+
+.tddark a {
+	text-decoration: none;
+	color: white;
+}
+
+.tddark a:hover {
+	text-decoration: none;
+}
+
+#gallerycontainer {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	background-color: #22292F;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+#gallerycontent {
+	padding: 3%;
+}
+
+.image-set {
+	width: 100%;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gallerytd {
+	text-align: center;
+	margin: 0;
+	padding: 10px 0 10px 0;
+}
+
+.gallerythumbnail {
+	width: 200px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0 1px 5px rgba(0,0,0,.8),inset 0 0 1px rgba(255,255,255,.4);
+	border: none;
+}
+
+.gallerythumbnail:hover {
+	-moz-box-shadow: 0 0 10px #ccc; 
+	-webkit-box-shadow: 0 0 10px #ccc; 
+	box-shadow: 0 0 10px #ccc;
+	border: none;
+}
+
+#sacontainer {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	background-color: #22292F;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+#sacontent {
+	margin: 0;
+	padding: 3%;
+}
+
+#videocontainer {
+	padding: 0;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#goprovideo {
+	box-shadow: 0 1px 5px rgba(0,0,0,.8),inset 0 0 1px rgba(255,255,255,.4);
+	width: 100%;
+	margin: 0;
+}
+
+#header {
+	text-align: center;
+	width: 100%;
+}
+
+#pagebanner {
+	width: 100%;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+}
+
+#homebanner {
+	max-width: 100%;
+	display: block;
+}
+
+#footer {
+	width: 100%;
+	border-top: 2px solid black;
+	background-image: url(sliderbackground.png);
+	margin: 0;
+	padding: 0;
+	color: #DADADA;
+}	
+
+#footer p {
+	margin: 0 0 0 15%;
+}
+
+#footer p a{
+	color: #DADADA;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#footer p a:hover {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#nav {
+	font-size: 1.3vw;
+	background-image: url(headerbackground.png);
+	min-height: 100px;
+	max-height: 100px;
+	margin: 0;
+	padding: 0;
+}	
+
+#nav ul {
+	width: 70%;
+	margin: 0;
+	padding: 0;
+	margin-left: auto;
+	margin-right: 0;
+}
+
+#logocontainer {
+	width: 30%;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+#logo {
+	max-height: 100px;
+	min-height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	display: block;
+}
+
+#nav ul li {
+	width: 25%;
+	margin: 0;
+	list-style: none;
+	float: left;
+	text-align: center;
+	background-image: url(button.png);
+}
+
+#nav ul li a {
+	line-height: 100px;
+	height: 100px;
+	display: block;
+}
+
+#nav ul li a:link {
+	color: #DADADA;
+	text-decoration: none;
+}
+
+#nav ul li a:visited {
+	color: #DADADA;
+	text-decoration: none;
+}
+
+#nav ul li a:hover {
+	background-image: url(buttonhover.png);
+	color: black !important;
+}
+
+#pageindicator {
+	background-image: url(buttonhover.png);
+	color: black !important;
+}
